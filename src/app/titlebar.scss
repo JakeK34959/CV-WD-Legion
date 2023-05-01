@@ -93,7 +93,7 @@
     content: cv('const:text.titlebar.shortct');
     color: $main-color;
     font-size: 9px;
-    font-weight: 500;
+    font-weight: 700;
     text-shadow: 0 0 3px;
     content: cv('const:text.titlebar.shortos');
     color: $main-color;
@@ -102,7 +102,7 @@
     text-shadow: 0 0 3px;
   }
   &:after {
-    content: 'const:text.titlebar.version';
+    content: cv('const:text.titlebar.version');
     color: hsla(0, 0%, 100%, 0.3);
   }
 }
