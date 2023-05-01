@@ -96,7 +96,7 @@
     text-shadow: 0 0 3px;
   }
   &:after {
-    content: '#{$version}';
+    content: cv('const:text.titlebar.short');
     color: hsla(0, 0%, 100%, 0.3);
   }
 }
