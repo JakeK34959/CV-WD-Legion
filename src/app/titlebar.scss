@@ -96,7 +96,7 @@
     text-shadow: 0 0 3px;
   }
   &:after {
-    content: cv('const:text.titlebar.short');
+    content: '3.0';
     color: hsla(0, 0%, 100%, 0.3);
   }
 }
