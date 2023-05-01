@@ -94,10 +94,9 @@
     color: $main-color;
     font-weight: 700;
     text-shadow: 0 0 3px;
-
   }
   &:after {
-    content: cv('const:text.titlebar.version');
+    content: '#{$version}';
     color: hsla(0, 0%, 100%, 0.3);
   }
 }
