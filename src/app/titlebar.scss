@@ -86,13 +86,12 @@
   &:before,
   &:after {
     margin: 0 2px;
-
+    font-size: 10px;
     order: 1;
   }
   &:before {
-    content: cv('const:text.titlebar.shortct');
+    content: cv('const:text.titlebar.short');
     color: $main-color;
-    font-size: 10px;
     font-weight: 700;
     text-shadow: 0 0 3px;
 
